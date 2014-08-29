@@ -6,10 +6,10 @@ require 'fileutils_logger/version'
 Gem::Specification.new do |spec|
   spec.name          = "fileutils_logger"
   spec.version       = FileutilsLogger::VERSION
-  spec.authors       = ["akima"]
-  spec.email         = ["akm2000@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.authors       = ["akm2000"]
+  spec.email         = ["t-akima@groovenauts.jp"]
+  spec.summary       = %q{provides FileUtils.with_logger method instead of FileUtils::Verbose}
+  spec.description   = %q{provides FileUtils.with_logger method instead of FileUtils::Verbose}
   spec.homepage      = ""
   spec.license       = "MIT"
 
